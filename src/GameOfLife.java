@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 
 public class GameOfLife extends JFrame implements ActionListener {
 	
-	private final int PANEL_SIZE = 200;
+	private final int PANEL_SIZE = 10;
 	private final String RESET_BUTTON_TEXT = "Reset";
 	private final String STEP_BUTTON_TEXT = "Step";
 	private final String RAND_BUTTON_TEXT = "Rand"; 
@@ -32,7 +32,7 @@ public class GameOfLife extends JFrame implements ActionListener {
 		add(rand);
 		add(lifePanel);
 		
-		setSize(700, 700);
+		setSize(500, 200);
 		setVisible(true);
 	}
 	

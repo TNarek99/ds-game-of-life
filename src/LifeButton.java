@@ -9,6 +9,7 @@ public class LifeButton extends JButton implements ActionListener {
 	public LifeButton() {
 		super("");
 		isAlive = false;
+		setAlive(isAlive);
 		addActionListener(this);
 	}
 	
